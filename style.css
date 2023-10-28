@@ -90,5 +90,14 @@ a:hover {
     float: right;
     padding: 10px;
     height: 28%;
-    border-radius: 50%;
+    border-radius: 100%;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media (max-width: 768px) {
+    .rujuta_photo {
+        width: 50%;
+    }
 }
