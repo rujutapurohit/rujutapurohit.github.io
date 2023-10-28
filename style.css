@@ -1,0 +1,94 @@
+h1 {
+    font-family: Avantgarde;
+    justify-content: center;
+    padding:10px;
+    margin: 0px 150px 20px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+}
+h2 {
+    font-family: Avantgarde;
+    padding:10px;
+    font-size: 25px;
+    color: #000000;
+    line-height: 60px;
+}
+.header {
+    background-image: url('hubble.png'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center; /* Center the image horizontally */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    text-align: center; /* Center the text within the header */
+    color: #fff; /* Text color on top of the image */
+    padding: 100px 0; 
+}
+body {
+    color: #000000;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin: 2px;
+    background-color: aliceblue;
+}
+.para{
+    background-color: white;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 200%;
+    margin-bottom: 40px ;
+    margin-left:100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section {
+    margin-left:100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 75px;
+    background-color: white;
+}
+
+img {
+    max-width: 42.5%;
+    height: auto;
+    float: left;
+    margin-right: 1%;
+}
+footer {
+    background-image: url('hubble.png');
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    font-size: 18px;
+    color: #fff;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:purple;}
+
+
+.rujuta_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17.5%;
+    float: right;
+    padding: 10px;
+    height: 28%;
+    border-radius: 50%;
+}
