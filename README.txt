@@ -1,1 +1,1 @@
-Git repository for personal website: rujutapurohit.github.io
+Git repository for personal website: https://rujutapurohit.github.io
