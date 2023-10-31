@@ -45,6 +45,8 @@ body {
     margin-left:100px;
     margin-right: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:45px;
+    padding-top:10px;
 }
 .section {
     margin-left:100px;
@@ -55,8 +57,9 @@ body {
 }
 
 img {
-    max-width: 42.5%;
+    max-width: 50%;
     height: auto;
+    width: auto;
     float: left;
     margin-right: 1%;
 }
