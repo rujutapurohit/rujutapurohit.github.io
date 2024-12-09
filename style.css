@@ -16,12 +16,12 @@ h2 {
     line-height: 60px;
 }
 .header {
-    background-image: url('hubble.png'); /* Specify the path to your background image */
+    background-image: url('hubble.png');
     background-size: cover;
-    background-position: center; /* Center the image horizontally */
-    background-repeat: no-repeat; /* Prevent repeating the image */
-    text-align: center; /* Center the text within the header */
-    color: #fff; /* Text color on top of the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
     padding: 100px 0; 
 }
 body {
@@ -35,21 +35,21 @@ body {
     margin: 2px;
     background-color: aliceblue;
 }
-.para{
+.para {
     background-color: white;
     text-align: justify;
     font-size: 18px;
     margin-top: 40px;
     line-height: 200%;
-    margin-bottom: 40px ;
-    margin-left:100px;
+    margin-bottom: 40px;
+    margin-left: 100px;
     margin-right: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left:45px;
-    padding-top:10px;
+    padding-left: 45px;
+    padding-top: 10px;
 }
 .section {
-    margin-left:100px;
+    margin-left: 100px;
     margin-right: 100px;
     padding-left: 100px;
     margin-bottom: 75px;
@@ -61,6 +61,8 @@ img {
     height: auto;
     width: auto;
     float: left;
+    padding-top: 50px;
+    padding-bottom: 25px;
     margin-right: 1%;
 }
 footer {
@@ -82,8 +84,8 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color:purple;}
-
+    color: purple;
+}
 
 .rujuta_photo {
     display: block;
@@ -99,8 +101,84 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
-@media (max-width: 768px) {
-    .rujuta_photo {
-        width: 50%;
+
+.container {
+    display: flex;
+    gap: 20px;
+    max-width: 50%;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    max-width: 1400px; 
+    margin: 20px auto;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: calc(33.33% - 20px); 
+    max-width: 600px;
+}
+
+.project img {
+    max-width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-description {
+    padding: 20px;
+    text-align: left;
+}
+
+.project-description h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.project-description p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.project-description a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-description a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* Optional: Responsive Adjustments */
+@media (max-width: 1000px) {
+    .project {
+        width: calc(50% - 20px); /* Two blocks per row on smaller screens */
+    }
+}
+
+@media (max-width: 750px) {
+    .project {
+        width: 100%; /* Stacks the blocks vertically on very small screens */
     }
 }
